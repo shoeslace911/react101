@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Welcome from "./components/FunctionalComponent.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -18,4 +17,5 @@ root.render(
 reportWebVitals();
 
 console.log("welcome to the jungle from index.js");
+
 // super important cause this calls app which has all the componenets, ad imports here if you want to make more componenets or in App.js
